@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#father{
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;/*将父元素设置为弹性盒*/
+	flex-wrap: wrap;
+	justify-content: center;/*设置弹性盒项目在主轴（横轴）方向上的对齐方式*/
+	align-items: center;/*设置弹性盒子项目在纵轴上的对齐方式*/
+}
+div>div{
+	width: 30vw;
+	height: 30vw;
+	text-align: center;
+	line-height: 30vw;
+	margin: 1.66vw;
+	border-radius: 10px;
+	background-color: #ffa500;
+	font-size: 5vw;
+	color: yellow;
+}
+#btn1,#btn2{
+	width: 100vw;
+	height: 8vw;
+	margin-top: 15px;
+	border-radius: 10px;
+	font-size: 3vw;
+}
